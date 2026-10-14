@@ -4,291 +4,13 @@
    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
    <meta name="GENERATOR" content="Mozilla/4.75 [en] (Win98; U) [Netscape]">
 <!-- '"NorthSky"' -->
-<!-- Auto Banner Insertion Begin -->
-</head>
-<body background="webbg1.jpg">
-<!-- '"AWS"' -->
-<!-- Auto Banner Insertion Begin -->
-<div id=aws_994 align=center><style>
-  .mwsb{ background-color: 3366CC; border-width: 1px; border-color: 3366CC; border-style: solid; }
-  .mwst, .mwst a{ font-family: arial,sans-serif; font-size: 8pt; background-color: white; color: blue;}
-  </style>
-  <!------ OAS SETUP begin ------>
-  <img src="http://track.untd.com/s/oasrdb?pid=MWS&profile=,," width="1" height="1">
-  <SCRIPT LANGUAGE=JavaScript>
-  <!--
-  //configuration
-  OAS_url = 'http://cyclops.prod.untd.com/';
-  //OAS_sitepage values can be found in the excel spreadsheet showing position and pagenames.
-  OAS_sitepage = 'webservices/general'; //CHANGED
-  //OAS_sitepage = window.location.hostname + window.location.pathname;
-  // must list every Ad position on the page or they will not show.  Also you can't have line items that are not on the page or a impression will be counted even though it was actually shown. 
-  OAS_listpos = 'Top,Bottom,Frame1,Frame2,Right,TopLeft,TopRight';
-  OAS_query = '&';
-  OAS_target = '_Blank';
-  //end of configuration
-  OAS_version = 10;
-  OAS_rn = '001234567890'; OAS_rns = '1234567890';
-  OAS_rn = new String (Math.random()); OAS_rns = OAS_rn.substring (2, 11);
-  function OAS_NORMAL(pos) {
-    document.write('<A HREF="' + OAS_url + 'click_nx.ads/' + OAS_sitepage + '/1' + OAS_rns + '@' + OAS_listpos + '!' + pos + '?' + OAS_query + '" TARGET=' + OAS_target + '>');
-    document.write('<IMG SRC="' + OAS_url + 'adstream_nx.ads/' + OAS_sitepage + '/1' + OAS_rns + '@' + OAS_listpos + '!' + pos + '?' + OAS_query + '" BORDER=0></A>');
-  }
-  //-->
-  </SCRIPT>
-
-
-  <SCRIPT LANGUAGE=JavaScript1.1>
-  <!--
-  OAS_version = 11;
-  if ((navigator.userAgent.indexOf('Mozilla/3') != -1) || (navigator.userAgent.indexOf('Mozilla/4.0 WebTV') != -1))
-    OAS_version = 10;
-  if (OAS_version >= 11)
-    document.write('<SCR' + 'IPT LANGUAGE=JavaScript1.1 SRC="' + OAS_url + 'adstream_mjx.ads/' + OAS_sitepage + '/1' + OAS_rns + '@' + OAS_listpos + '?' + OAS_query + '"><\/SCRIPT>');//-->
-  </SCRIPT>
-
-  <SCRIPT LANGUAGE=JavaScript>
-  <!--
-  document.write('');
-  function OAS_AD(pos) {
-    if ((OAS_version >= 11) && (typeof OAS_RICH != 'undefined')) {
-      OAS_RICH(pos);
-    } else {
-      OAS_NORMAL(pos);
-    }
-  }
-
-  //-->
-  </SCRIPT>
-  <!-- start /fs_img/about_pop.txt -->
-<!-- The only pops this script can generate now are:
-			1. Pops from UOL
-			2. In-house popup
--->
-<script language="JavaScript">
-<!--
-var isUS = "1";
-var keyword = escape("");
-var compname='freeservers';
-var ourExitPop=true;
-
-function popSlot(slot){
-    // OAS AD 'Frame1' begin
-    if(window.OAS_AD) OAS_AD('Frame1');
-    // OAS AD 'Frame1' begin
-}
-
-function checkPopunderCookie() {
-	var cookieVal = 0;
-	cookieExpDays = (1/24);  
-	var expDate = new Date();
-	expDate.setTime(expDate.getTime() + (86400000 * cookieExpDays));
-	cookieDate = ";Expires=" + expDate.toGMTString();
-	if (document.cookie) {
-		var cookieInfo = document.cookie.split(";");
-		for (i=0; i<cookieInfo.length; i++) {
-			cName = cookieInfo[i].split("=")[0];
-			if (cName.indexOf("pixelpop") >= 0) {
-				cookieVal = cookieInfo[i].split("=")[1];
-			}
-		}
-	}
-	cookieVal++;
-	document.cookie="pixelpopslot="+cookieVal+";path=/;"+cookieDate;
- 	if (cookieVal== 1) { popSlot(1); }
- 	if (cookieVal== 2) { popSlot(2); }
- 	if (cookieVal== 3) { popSlot(3); }
- 	if (cookieVal== 4) { popSlot(4); }
- 	if (cookieVal== 5) { popSlot(5); }
- 	if (cookieVal== 6) { popSlot(6); }
- 	if (cookieVal== 7) { popSlot(7); }
- 	if (cookieVal== 8) { popSlot(8); }
-}
-
-if (!window.sprs) checkPopunderCookie();
-
-if (!window.sprs && ourExitPop && (navigator.appName.indexOf('etscape')==-1)){
-	window.onunload=staycheck;
-	StayingOnSite=false;
-	DadLinkURLs="";
-	BabyLink="";
-	DadWindow=window.parent;
-	DadLinks=DadWindow.document.links;
-	DadHost="http://"+location.hostname;
-	DadWindow.document.onclick=linktellerDad;
-	document.onclick=linktellerThis;
-	function linkteller(){
-		while (EventTag.parentElement&&(EventTag.tagName!="A")){
-				EventTag=EventTag.parentElement;
-		}
-		if ((EventTag.tagName=="A")&&(!EventTag.target)){
-			if (EventTag.href.indexOf(DadHost)>-1){
-				StayingOnSite=true;
-			} else {
-				StayingOnSite=false;
-			}
-		}
-	}
-	function linktellerThis(){
-		EventTag=window.event.srcElement;
-		linkteller();
-	}
-	function linktellerDad(){
-		EventTag=DadWindow.event.srcElement;
-		linkteller();
-	}
-	function staycheck(){
-		if (StayingOnSite){
-		} else {
-		}
-	}
-}
--->
-</SCRIPT>
-<!-- end /fs_img/about_pop.txt -->
-  <table cellpadding="0" cellspacing="0" width="980">
-
-    <!-- start: related resources -->
-    <tr>
-      <td colspan="3">
-        <table cellpadding="0" cellspacing="0" align="center" width="100%" class="mwsb">
-          <tr>
-						<td class="mwst" align="right"><A href="/fs_img/site_list/previous.html"><IMG src="/fs_img/site_list/previous.gif" alt="Previous FreeServers Sites" width="4" height="7" border="0" align="absmiddle"></A></td>
-            <td class="mwst" align="center">
-              <a href="http://www.freeservers.com" class="mwst" target="_top">Free Web Hosting Provider</a> 
-              - <a href="http://www.globalservers.com" target="_top">Web Hosting</a>
-              - <a href="http://www.bizhosting.com" target="_top">E-commerce</a>
-              - <a href="http://www.netzero.com/?refcd=MWS0404NWP11" target="_top">High Speed Internet</a>
-              - <a href="http://www.freeservers.com/Free-Web-Page.html" target="_top">Free Web Page</a>
-              - <a href="http://www.photosite.com" target="_top">Photo Sharing</a>
-            </td>
-						<td class="mwst"><A href="/fs_img/site_list/index.html"><IMG src="/fs_img/site_list/more.gif" alt="More FreeServers Sites" width="4" height="7" border="0" align="absmiddle"></A></td>
-          </tr>
-        </table>
-      </td>
-    </tr>
-    <!-- end: related resources -->
-
-    <tr>
-      <td width="130">
-        <table cellpadding="0" cellspacing="0" width="130" style="margin-top:2px;">
-          <tr>
-            <td class="mwst" nowrap="1">
-              <a href="http://faithweb.com/?refcd=MWS_20040713_Banner_bar"
-                ><img src="/cgi-bin/image/images/bannertype/100X22.gif" width="100" height="22" border="0"
-                ></a
-              ><a href="/cgi-bin/login" target="_blank"
-                ><img src="/cgi-bin/image/images/bannertype/login_chunkx.gif" width="30" height="22" border="0"
-                ></a
-             ></td>
-          </tr>
-        </table>
-        
-        <table class="mwsb" cellpadding="0" cellspacing="0" width="100%" style="margin-top:2px;">
-          <tr>
-            <td align="center">
-              <!------ OAS AD 'TopLeft' begin ------>
-              <SCRIPT LANGUAGE=JavaScript>
-              <!--
-              OAS_AD('TopLeft');
-              //-->
-              </SCRIPT>
-              <!------ OAS AD 'TopLeft' end ------>
-            </td>
-          </tr>
-        </table>
-      </td>
-
-      <td>
-        <table cellspacing="0" class="mwsb" style="margin:2px;margin-bottom:0px;table-layout:fixed;"> 
-          <tr>
-            <td class="mwst" align="center" style="width:730px;">
-    <!------ OAS AD 'Top' begin ------>
-    <SCRIPT LANGUAGE=JavaScript>
-    <!--
-    if(window.OAS_AD) OAS_AD('Top');
-    //-->
-    </SCRIPT>
-    <!------ OAS AD 'Top' end ------></td>
-          </tr>
-        </table>
-      </td>
-
-      <td width="120">
-        <table class="mwsb" cellpadding="0" cellspacing="0" width="120" style="margin-top:2px;">
-          <tr>
-            <td class="mwst" nowrap="1">
-              <a href="/cgi-bin/util/upgrade?account_type=[upgrade.partner_prefix]_ac_bannr_x&refcd=WS1005NBP99"
-              ><img src="/fs_img/bbar/120x24_get_rid_of_banners_01.gif" 
-                width="120" height="24" class="mwsbbar" border="0"
-              ></a
-             ></td>
-          </tr>
-        </table>
-        
-        <table class="mwsb" cellpadding="0" cellspacing="0" width="100%" style="margin-top:2px;">
-          <tr>
-            <td align="center">
-            <!------ OAS AD 'TopRight' begin ------>
-            <SCRIPT LANGUAGE=JavaScript>
-            <!--
-            OAS_AD('TopRight');
-            //-->
-            </SCRIPT>
-            <!------ OAS AD 'TopRight' end ------>
-            </td>
-          </tr>
-        </table>
-      </td>
-
-    </tr>
-    <tr>
-      <td colspan="3" align="center">
-        
-        <!-- search powered by yahoo -->
-        <table width="100%" cellpadding="0" cellspacing="0" class="mwsb" style="border-width:2px; margin-top:10px; background-color:white; height:10px;">
-          <tr valign="top">
-            <td align="center">
-              <form action="/cgi-bin/mysearch" style="margin:0;">
-              <span style="position:relative;top:-5px;font-family:arial;font-size:12px;color:#000;"><b>Search the Web</b></span>
-              <input type="hidden" name="type" value="bannerbar">
-              <input name="Keywords" accesskey="s" style="width:400px; height:21px; background:white; border:1px #A4ABB1 solid; font-family: arial, sans-serif; font-size: 10pt; color: #000000; position:relative; top:-6px;">
-              <input type="image" src="/fs_img/bannertype/yahoo/yahoo_sp_go.gif">
-              <img src="/fs_img/bannertype/yahoo/yahoo_sp3.gif" style="position:relative;top:4px;left:10px;">
-              </form>
-            </td>
-            <td width="5%"></td>
-          </tr>
-        </table>
-        
-      </td>
-    </tr>
-  </table><DIV id=sideFrame 
-	style="MARGIN-TOP: 27px; RIGHT: 5px; WIDTH: 120px; COLOR: #ffffff; POSITION: absolute; BACKGROUND-COLOR: #CCCCCC; Z-INDEX: 10000; TEXT-ALIGN: right"><A 
-	href="javascript:void%20(sideFrameOff())"><IMG src="/fs_img/banners/xout.gif" title="Close"
-	border=0></A><BR>
-  <!------ OAS AD 'Right' begin ------>
-  <SCRIPT LANGUAGE=JavaScript>
-  <!--
-  OAS_AD('Right');
-  // -->
-  </SCRIPT>
-  <!------ OAS AD 'Right' end ------>
-	<SCRIPT>
-		origRightPadding=document.body.style.paddingRight;
-		document.body.style.paddingRight="130px";
-		function sideFrameOff(){
-			document.getElementById('sideFrame').style.display='none';
-			document.body.style.paddingRight=origRightPadding;
-		}
-	</SCRIPT>
-	</DIV></div><!-- Auto Banner Insertion Complete THANK YOU -->
+<body bgcolor="#FBF6EC">
 
 &nbsp;&nbsp;
 <div ALIGN=right><table BORDER=0 CELLSPACING=0 CELLPADDING=0 COLS=1 WIDTH="75%" >
 <tr>
 <td>
-<center><img SRC="webwel.jpg" height=200 width=200>
+<center>
 <br><b><font face="Black Chancery"><font color="#CC0000"><font size=+2>&nbsp;
 These are the webrings I am proud to belong to.&nbsp;</font></font></font></b>
 <br><b><font face="Black Chancery"><font color="#CC0000"><font size=+2>Please
@@ -296,7 +18,7 @@ take the time to visit these places. You will</font></font></font></b>
 <br><b><font face="Black Chancery"><font color="#CC0000"><font size=+2>enjoy
 yourself I'm sure.</font></font></font></b>
 <br><b><font face="Black Chancery"><font color="#CC0000"><font size=+2>If
-you came here through one of these webrings just click <a href="http://www.chezs.faithweb.com/Welcome.html">here</a>
+you came here through one of these webrings just click <a href="Welcome.html">here</a>
 to go to my index page.</font></font></font></b>
 <br>&nbsp;
 <br>&nbsp;
@@ -309,13 +31,13 @@ to go to my index page.</font></font></font></b>
 <center><table BORDER=4 CELLSPACING=3 CELLPADDING=3 WIDTH="30%" >
 <tr>
 <td>
-<center><a href="http://www.ringsurf.com/netring?ring=raok;action=home" target="_top"><img SRC="Web8.jpg" ALT="Random Acts Of Kindness Webring" BORDER=2 height=137 width=268></a>
-<p><font color="#996600"><a href="mailto:CherylG27@excite.com">Chezs Is
-A Caring Member Of RAOK!&nbsp;</a></font>
-<br><font color="#996600"><a href="mailto:CherylG27@excite.com">[ </a><a href="http://www.ringsurf.com/netring?ring=raok;id=274;action=next">Next</a>
-| <a href="http://www.ringsurf.com/netring?ring=raok;id=274;action=next5">Next
-5 Sites</a> | <a href="http://www.ringsurf.com/netring?ring=raok;id=274;action=rand">Random
-Site</a> | <a href="http://www.ringsurf.com/netring?ring=raok;action=list">List
+<center><a href="https://web.archive.org/web/2002/http://www.ringsurf.com/netring?ring=raok;action=home" target="_top"><img SRC="Web8.jpg" ALT="Random Acts Of Kindness Webring" BORDER=2 height=137 width=268></a>
+<p><font color="#996600">Chezs Is
+A Caring Member Of RAOK!&nbsp;</font>
+<br><font color="#996600">[ <a href="https://web.archive.org/web/2002/http://www.ringsurf.com/netring?ring=raok;id=274;action=next">Next</a>
+| <a href="https://web.archive.org/web/2002/http://www.ringsurf.com/netring?ring=raok;id=274;action=next5">Next
+5 Sites</a> | <a href="https://web.archive.org/web/2002/http://www.ringsurf.com/netring?ring=raok;id=274;action=rand">Random
+Site</a> | <a href="https://web.archive.org/web/2002/http://www.ringsurf.com/netring?ring=raok;action=list">List
 Sites</a> ]&nbsp;</font></center>
 </td>
 </tr>
@@ -331,15 +53,15 @@ Sites</a> ]&nbsp;</font></center>
 <center><table BORDER=6 CELLSPACING=3 CELLPADDING=3 WIDTH="400" >
 <tr>
 <td ALIGN=LEFT>
-<center><a href="http://www.ringsurf.com/netring?ring=humanity;action=home" target="_top"><img SRC="1Diverse1.jpg" BORDER=0 height=226 width=206></a></center>
+<center><a href="https://web.archive.org/web/2002/http://www.ringsurf.com/netring?ring=humanity;action=home" target="_top"><img SRC="1Diverse1.jpg" BORDER=0 height=226 width=206></a></center>
 </td>
 
-<td ALIGN=CENTER>This <a href="http://www.ringsurf.com/netring?ring=humanity;action=home">Diversity
-- The Human Race</a> site owned by <a href="mailto:CherylG27@excite.com">Chezs>.&nbsp;</a>
-<br><a href="mailto:CherylG27@excite.com">[ </a><a href="http://www.ringsurf.com/netring?ring=humanity;id=46;action=next">Next</a>
-| <a href="http://www.ringsurf.com/netring?ring=humanity;id=46;action=prev5">Next
-5 Sites</a> | <a href="http://www.ringsurf.com/netring?ring=humanity;id=46;action=rand">Random
-Site</a> | <a href="http://www.ringsurf.com/netring?ring=humanity;action=list">List
+<td ALIGN=CENTER>This <a href="https://web.archive.org/web/2002/http://www.ringsurf.com/netring?ring=humanity;action=home">Diversity
+- The Human Race</a> site owned by Chezs>.&nbsp;
+<br>[ <a href="https://web.archive.org/web/2002/http://www.ringsurf.com/netring?ring=humanity;id=46;action=next">Next</a>
+| <a href="https://web.archive.org/web/2002/http://www.ringsurf.com/netring?ring=humanity;id=46;action=prev5">Next
+5 Sites</a> | <a href="https://web.archive.org/web/2002/http://www.ringsurf.com/netring?ring=humanity;id=46;action=rand">Random
+Site</a> | <a href="https://web.archive.org/web/2002/http://www.ringsurf.com/netring?ring=humanity;action=list">List
 Sites</a> ]&nbsp;</td>
 </tr>
 </table></center>
@@ -352,14 +74,14 @@ Sites</a> ]&nbsp;</td>
 <center><table BORDER=4 CELLSPACING=3 CELLPADDING=3 WIDTH="30%" >
 <tr>
 <td>
-<center><a href="http://www.ringsurf.com/netring?ring=kindness;action=home" target="_top"><img SRC="1KindLogo.jpg" ALT="Kind And Caring People Webring" BORDER=2 height=127 width=170></a>
-<br><a href="mailto:CherylG27@excite.com">Chezs> Is A Member Of&nbsp;</a>
-<br><a href="mailto:CherylG27@excite.com">Kind And Caring People&nbsp;</a>
-<br><a href="mailto:CherylG27@excite.com">On The Internet!</a>
-<p><a href="mailto:CherylG27@excite.com">&nbsp;</a><a href="http://www.ringsurf.com/netring?ring=kindness;id=9;action=next">Next</a>
-| <a href="http://www.ringsurf.com/netring?ring=kindness;id=9;action=next5">Next
-5 Sites</a> | <a href="http://www.ringsurf.com/netring?ring=kindness;id=9;action=rand">Random
-Site</a> | <a href="http://www.ringsurf.com/netring?ring=kindness;action=list">List
+<center><a href="https://web.archive.org/web/2002/http://www.ringsurf.com/netring?ring=kindness;action=home" target="_top"><img SRC="1KindLogo.jpg" ALT="Kind And Caring People Webring" BORDER=2 height=127 width=170></a>
+<br>Chezs> Is A Member Of&nbsp;
+<br>Kind And Caring People&nbsp;
+<br>On The Internet!
+<p>&nbsp;<a href="https://web.archive.org/web/2002/http://www.ringsurf.com/netring?ring=kindness;id=9;action=next">Next</a>
+| <a href="https://web.archive.org/web/2002/http://www.ringsurf.com/netring?ring=kindness;id=9;action=next5">Next
+5 Sites</a> | <a href="https://web.archive.org/web/2002/http://www.ringsurf.com/netring?ring=kindness;id=9;action=rand">Random
+Site</a> | <a href="https://web.archive.org/web/2002/http://www.ringsurf.com/netring?ring=kindness;action=list">List
 Sites</a></center>
 </td>
 </tr>
@@ -372,26 +94,26 @@ Sites</a></center>
 <p><!--Begin  Sisters of Love, Peace and Hope Net Ring fragment-->
 <table BORDER=5 CELLPADDING=3 BGCOLOR="#FFFFFF" VALIGN="MIDDLE" body font color="#62727F" font face="Comic" Sans MS" >
 <tr>
-<td><a href="http://www.angelfire.com/ga3/sistersoflph/"><img SRC="slphnewlogo1.jpg" ALT="Sisters of Love, Peace, and Hope" BORDER=0 height=175 width=175></a></td>
+<td><a href="https://web.archive.org/web/2002/http://www.angelfire.com/ga3/sistersoflph/"><img SRC="slphnewlogo1.jpg" ALT="Sisters of Love, Peace, and Hope" BORDER=0 height=175 width=175></a></td>
 
 <td></td>
 
 <td ALIGN=CENTER>
-<center><font face="Comic Sans MS"><font size=-2>This <a href="http://www.angelfire.com/ga3/sistersoflph/">Sisters
+<center><font face="Comic Sans MS"><font size=-2>This <a href="https://web.archive.org/web/2002/http://www.angelfire.com/ga3/sistersoflph/">Sisters
 of Love, Peace and Hope NetRing</a></font></font>
-<p><font face="Comic Sans MS"><font size=-2>site is owned by&nbsp;</font></font><a href="mailto:CherylG27@excite.com">
-Chezs.</a><font face="Comic Sans MS"><font size=-2>&nbsp;</font></font>
-<br><font face="Comic Sans MS"><font size=-2>[ <a href="http://www.ringsurf.com/netring?ring=Sistersoflph;id=48;action=prev5">Previous
-5 Sites</a></font></font>| <font face="Comic Sans MS"><font size=-2><a href="http://www.ringsurf.com/netring?ring=Sistersoflph;id=48;action=prev">Previous
+<p><font face="Comic Sans MS"><font size=-2>site is owned by&nbsp;</font></font>
+Chezs.<font face="Comic Sans MS"><font size=-2>&nbsp;</font></font>
+<br><font face="Comic Sans MS"><font size=-2>[ <a href="https://web.archive.org/web/2002/http://www.ringsurf.com/netring?ring=Sistersoflph;id=48;action=prev5">Previous
+5 Sites</a></font></font>| <font face="Comic Sans MS"><font size=-2><a href="https://web.archive.org/web/2002/http://www.ringsurf.com/netring?ring=Sistersoflph;id=48;action=prev">Previous
 </a>|
-<a href="http://www.ringsurf.com/netring?ring=Sistersoflph;id=48;action=next">Next</a>
+<a href="https://web.archive.org/web/2002/http://www.ringsurf.com/netring?ring=Sistersoflph;id=48;action=next">Next</a>
 |</font></font></center>
 
-<p><font face="Comic Sans MS"><font size=-2><a href="http://www.ringsurf.com/netring?ring=Sistersoflph;id=48;action=next5">Next
-5 Sites</a><font color="#000080"> | </font><a href="http://www.ringsurf.com/netring?ring=Sistersoflph;action=rand">Random
-Site</a> | <a href="http://www.ringsurf.com/netring?ring=Sistersoflph;action=list">List
+<p><font face="Comic Sans MS"><font size=-2><a href="https://web.archive.org/web/2002/http://www.ringsurf.com/netring?ring=Sistersoflph;id=48;action=next5">Next
+5 Sites</a><font color="#000080"> | </font><a href="https://web.archive.org/web/2002/http://www.ringsurf.com/netring?ring=Sistersoflph;action=rand">Random
+Site</a> | <a href="https://web.archive.org/web/2002/http://www.ringsurf.com/netring?ring=Sistersoflph;action=list">List
 Sites</a> ]</font></font>
-<p><font face="Comic Sans MS"><font size=-2><a href="http://www.angelfire.com/ga3/sistersoflph/">Click
+<p><font face="Comic Sans MS"><font size=-2><a href="https://web.archive.org/web/2002/http://www.angelfire.com/ga3/sistersoflph/">Click
 here to join</a></font></font></td>
 </tr>
 </table>
@@ -405,22 +127,19 @@ here to join</a></font></font></td>
 <br>&nbsp;
 <br>&nbsp;
 <center>
-<p><a href="http://www.chezs.faithweb.com/Welcome.html"><img SRC="webhome.jpg" BORDER=0 height=150 width=100></a>
+<p><a href="Welcome.html"><img SRC="webhome.jpg" BORDER=0 height=150 width=100></a>
 <br>&nbsp;
 <p><b><font face="Black Chancery"><font color="#CC0000"><font size=+2>Please
 sign my guestbook before you leave.</font></font></font></b>
 <br><b><font face="Black Chancery"><font color="#CC0000"><font size=+2>Thank
 you.</font></font></font></b>
-<p><a href="http://pub8.bravenet.com/guestbook/show.asp?usernum=613642274"><img SRC="webgb.jpg" BORDER=0 height=200 width=200></a>
+<p><img SRC="webgb.jpg" BORDER=0 height=200 width=200>
 <br>&nbsp;
-<p><a href="mailto:CherylG27@excite.com"><img SRC="webemail.jpg" BORDER=0 height=150 width=100></a>
-<p><!--WEBBOT bot="HTMLMarkup" startspan ALT="Site Meter" --><script type="text/javascript" language="JavaScript">var site="sm3Chezs"</script>
-<script type="text/javascript" language="JavaScript1.2" src="http://sm3.sitemeter.com/js/counter.js?site=sm3Chezs">
-</script>
-<noscript><a href="http://sm3.sitemeter.com/stats.asp?site=sm3Chezs" target="_top"><img SRC="meter.asp" ALT="Site Meter" BORDER=0 ></a></noscript><!-- Copyright (c)2000 Site Meter --><!--WEBBOT bot="HTMLMarkup" Endspan -->
+<p><img SRC="webemail.jpg" BORDER=0 height=150 width=100>
+<p>
 <br>&nbsp;
 <br>&nbsp;
-<p><embed src="ring_of_fire.mid" hidden="true" align="baseline" autostart="true" loop="true"></center>
+<p></center>
 
 <p><br>
 <br>
@@ -432,4 +151,3 @@ you.</font></font></font></b>
 
 </body>
 </html>
-<TABLE ALIGN=CENTER STYLE="clear:both"><TR><TD ALIGN=CENTER> <!------ OAS AD 'Bottom' begin ------> <SCRIPT LANGUAGE=JavaScript> if(window.OAS_AD) OAS_AD('Bottom'); </SCRIPT> <!------ OAS AD 'Bottom' end ------> </TD></TR></TABLE>
